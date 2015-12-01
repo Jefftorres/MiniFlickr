@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MiniFlickr</string>
+    <string name="facebook_app_id">1721345694761450</string>
+    <string name="login">MiniFlickr Login</string>
+    <string name="loginBtn">Iniciar Sesión</string>
+    <string name="loginCancel">Inicio de sesión cancelado</string>
+    <string name="loginError">Error al iniciar sesión</string>
 </resources>
