@@ -1,5 +1,6 @@
 package com.example.estudiante.miniflickr;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -44,5 +45,11 @@ public class MainActivity extends AppCompatActivity {
                 header.setText("" + R.string.loginError);
             }
         });
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 }
