@@ -8,7 +8,7 @@
             android:title="Tomar foto" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/action_settings">
         <menu>
             <item
                 android:id="@+id/nav_share"
